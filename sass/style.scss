@@ -1,0 +1,166 @@
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+.collapse navbar-collapse {
+  background-color: black;
+    .fixed-top {
+      position: fixed;
+      top: 0px;
+      right: 0px;
+    }
+  }
+.mainhead {
+  text-align: center;
+  color: black;
+  background-image: url(../images/background_image_rzeczy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-family: 'Droid Serif';
+  padding: 40px 0 100px;
+  background-attachment: scroll;
+  background-position: center center;
+}
+.row {
+    margin-right: -181px;
+    margin-left: -15px;
+  }
+.mainhead .row {
+  font-size: 40px;
+letter-spacing: 1px;
+color: #ffffff;
+font-family: "Droid Serif";
+font-weight: 400;
+font-style: italic;
+text-align: center;
+}
+#Navigation .navbar-collapse {
+  display:flex;
+  font-size: 24px;
+  line-height: 21px;
+  font-family: "Montserrat";
+  font-weight: 200;
+  text-align: center;
+  list-style: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border: none;
+  background-color: transparent;
+  li {
+    margin: 0 20px;
+  }
+}
+.container {
+  max-width: 940px;
+}
+body {
+  margin:0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border: none;
+}
+.row button {
+  background-color: #fed136;
+  border-color: #fed136;
+  font-size: 18px;
+  padding: 20px 40px;
+  border-radius: 100px;
+}
+.Services h1 {
+  font-size: 20px;
+  text-align: center;
+  font-size: 40px;
+line-height: 75px;
+color: #222222;
+font-family: "Montserrat";
+font-weight: 400;
+text-align: center;
+letter-spacing: 4px;
+}
+
+.Services P {
+  text-align: center;
+  font-size: 30px;
+  color: #777777;
+  font-family: "Droid Serif";
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.col-md-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .Services .fa-shopping-basket {
+    color: yellow;
+    font-size: 55px;
+  }
+  .Services .fa-laptop-code {
+    color: yellow;
+    font-size: 55px;
+  }
+  .Services .fa-unlock-alt {
+    color: yellow;
+    font-size: 55px;
+  }
+.Services .card-body {
+  text-align: center;
+}
+.col-lg-9 {
+  text-align: center;
+  letter-spacing: 4px;
+}
+  .card {
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 10px 10px;
+  }
+.icon-box {
+  border: 2px solid yellow;
+  padding: 10px;
+  border-radius: 65px;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.porfolio-image {
+  max-width: 100%;
+}
+.footer_list li {
+    display: inline-block;
+}
+.footer_list a {
+    background: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.footer_list i {
+    color: white;
+  i {
+    color: yellow;
+  }
+  li {
+    display: inline-block;
+    letter-spacing: 30px;
+  }
+}
