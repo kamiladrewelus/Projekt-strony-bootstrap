@@ -24,10 +24,6 @@ html {
   background-attachment: scroll;
   background-position: center center;
 }
-.row {
-    margin-right: -181px;
-    margin-left: -15px;
-  }
 .mainhead .row {
   font-size: 40px;
 letter-spacing: 1px;
@@ -103,7 +99,7 @@ letter-spacing: 4px;
     padding-left: 15px;
   }
   .Services .fa-shopping-basket {
-    color: yellow;
+    color: red;
     font-size: 55px;
   }
   .Services .fa-laptop-code {
@@ -163,4 +159,12 @@ letter-spacing: 4px;
     display: inline-block;
     letter-spacing: 30px;
   }
+}
+.products .text-center h2, .products .text-center p {
+  text-align: center;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }

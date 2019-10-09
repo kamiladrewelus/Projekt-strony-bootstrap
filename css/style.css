@@ -27,11 +27,6 @@ html {
   background-position: center center;
 }
 
-.row {
-  margin-right: -181px;
-  margin-left: -15px;
-}
-
 .mainhead .row {
   font-size: 40px;
   letter-spacing: 1px;
@@ -120,7 +115,7 @@ body {
 }
 
 .Services .fa-shopping-basket {
-  color: yellow;
+  color: red;
   font-size: 55px;
 }
 
@@ -198,5 +193,15 @@ body {
 .footer_list i li {
   display: inline-block;
   letter-spacing: 30px;
+}
+
+.products .text-center h2, .products .text-center p {
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */
