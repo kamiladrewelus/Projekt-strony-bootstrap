@@ -42,12 +42,11 @@ html {
   display: flex;
   font-size: 24px;
   line-height: 21px;
-  font-family: "Montserrat";
+  font-family: "Montserrat",sans-serif;
   font-weight: 200;
   text-align: center;
   list-style: none;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 0;
   border: none;
   background-color: transparent;
 }
@@ -56,12 +55,20 @@ html {
   margin: 0 20px;
 }
 
+@media (max-width: 800px) {
+  #Navigation .navbar-collapse {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+
 .container {
   max-width: 940px;
 }
 
 body {
   margin: 0;
+  font-family: "Montserrat",sans-serif;
 }
 
 .navbar {
@@ -69,17 +76,18 @@ body {
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  border: none;
+  padding: 0;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
-.row button {
+button {
   background-color: #fed136;
-  border-color: #fed136;
+  border: none;
   font-size: 18px;
   padding: 20px 40px;
-  border-radius: 100px;
+  border-radius: 5px;
+  color: white;
 }
 
 .Services h1 {
@@ -115,7 +123,7 @@ body {
 }
 
 .Services .fa-shopping-basket {
-  color: red;
+  color: yellow;
   font-size: 55px;
 }
 
@@ -141,7 +149,9 @@ body {
 .card {
   text-align: center;
   letter-spacing: 0px;
-  padding: 10px 10px;
+  padding: 0 0 10px 0;
+  margin-bottom: 15px;
+  background: white;
 }
 
 .icon-box {
@@ -165,6 +175,12 @@ body {
 
 .footer_list li {
   display: inline-block;
+  margin: 0 10px;
+}
+
+.footer_list {
+  padding: 0;
+  text-align: center;
 }
 
 .footer_list a {
@@ -193,6 +209,10 @@ body {
 .footer_list i li {
   display: inline-block;
   letter-spacing: 30px;
+}
+
+.products {
+  background: lightgrey;
 }
 
 .products .text-center h2, .products .text-center p {
